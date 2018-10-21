@@ -15,11 +15,11 @@
                         "What is the altitude of the {objectName} ?"
                     ],
                     "upperLimit":{
-                        "value": "50000",
+                        "value": 50000,
                         "unit": "feet"
                     },
                     "lowerLimit":{
-                        "value": "500",
+                        "value": 500,
                         "unit": "feet"
                     }
                 },
@@ -37,11 +37,11 @@
                         "How far is the {objectName} ?"
                     ],
                     "upperLimit":{
-                        "value": "50000",
+                        "value": 50000,
                         "unit": "feet"
                     },
                     "lowerLimit":{
-                        "value": "500",
+                        "value": 500,
                         "unit": "feet"
                     }
                 },
@@ -60,11 +60,11 @@
                         "How high is the top of the {objectName} ?"
                     ],
                     "upperLimit":{
-                        "value": "8000",
+                        "value": 8000,
                         "unit": "Metre"
                     },
                     "lowerLimit":{
-                        "value": "500",
+                        "value": 500,
                         "unit": "Metre"
                     }
                 },
@@ -82,11 +82,11 @@
                         "How high is the {objectName} flying?"
                     ],
                     "upperLimit":{
-                        "value": "800",
+                        "value": 800,
                         "unit": "Metre"
                     },
                     "lowerLimit":{
-                        "value": "50",
+                        "value": 50,
                         "unit": "Metre"
                     }
                 },
@@ -104,11 +104,11 @@
                         "How far is the {objectName} ?"
                     ],
                     "upperLimit":{
-                        "value": "50000",
+                        "value": 50000,
                         "unit": "Metre"
                     },
                     "lowerLimit":{
-                        "value": "500",
+                        "value": 500,
                         "unit": "Metre"
                     }
                 },
@@ -126,11 +126,11 @@
                         "What is the height of the {objectName} ?"
                     ],
                     "upperLimit":{
-                        "value": "50000",
+                        "value": 50000,
                         "unit": "Metre"
                     },
                     "lowerLimit":{
-                        "value": "500",
+                        "value": 500,
                         "unit": "Metre"
                     }
                 }
