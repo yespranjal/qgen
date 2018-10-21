@@ -1,0 +1,138 @@
+{
+    "objects":[
+                {
+                    "type": "HighObject",
+                    "quantityType": "Length",
+                    "name": "Airplane",
+                    "synonyms": ["Aircraft","Fighter Jet"],
+                    "assertTemplates":[
+                        "An {objectName} is flying at a height of {objectValue}.",
+                        "An {objectName} is flying at an altitude of {objectValue}."
+                    ],
+                    "questionTemplates":[
+                        "At what height is the {objectName} flying ?",
+                        "What is the height of the {objectName} ?",
+                        "What is the altitude of the {objectName} ?"
+                    ],
+                    "upperLimit":{
+                        "value": "50000",
+                        "unit": "feet"
+                    },
+                    "lowerLimit":{
+                        "value": "500",
+                        "unit": "feet"
+                    }
+                },
+                {
+                   "type": "GroundObject",
+                   "quantityType": "Length",
+                   "name": "Airport",
+                   "synonyms": [],
+                   "assertTemplates":[
+                        "An {objectName} is present at a distance of {objectValue}.",
+                        "An {objectName} is {objectValue} away."
+                    ],
+                    "questionTemplates":[
+                        "What is the distance to the {objectName} ?",
+                        "How far is the {objectName} ?"
+                    ],
+                    "upperLimit":{
+                        "value": "50000",
+                        "unit": "feet"
+                    },
+                    "lowerLimit":{
+                        "value": "500",
+                        "unit": "feet"
+                    }
+                },
+                {
+                    "type": "HighObject",
+                    "quantityType": "Length",
+                    "name": "Mountain",
+                    "synonyms": ["Hill"],
+                    "assertTemplates":[
+                        "A {objectName} stands at a height {objectValue}.",
+                        "A {objectName} is {objectValue} high."
+                    ],
+                    "questionTemplates":[
+                        "What is the height to the {objectName} ?",
+                        "How high is the {objectName} ?",
+                        "How high is the top of the {objectName} ?"
+                    ],
+                    "upperLimit":{
+                        "value": "8000",
+                        "unit": "Metre"
+                    },
+                    "lowerLimit":{
+                        "value": "500",
+                        "unit": "Metre"
+                    }
+                },
+                {
+                    "type": "HighObject",
+                    "quantityType": "Length",
+                    "name": "Bird",
+                    "synonyms": ["Sparrow","Eagle"],
+                    "assertTemplates":[
+                        "A {objectName} is flying at a height of {objectValue}.",
+                        "A {objectName} is sitting {objectValue} high."
+                    ],
+                    "questionTemplates":[
+                        "How high is the {objectName} ?",
+                        "How high is the {objectName} flying?"
+                    ],
+                    "upperLimit":{
+                        "value": "800",
+                        "unit": "Metre"
+                    },
+                    "lowerLimit":{
+                        "value": "50",
+                        "unit": "Metre"
+                    }
+                },
+                {
+                    "type": "GroundObject",
+                    "quantityType": "Length",
+                    "name": "Campsite",
+                    "synonyms": [],
+                    "assertTemplates":[
+                        "The horizontal distance of a {objectName} is {objectValue}.",
+                        "An {objectName} is {objectValue} away."
+                    ],
+                    "questionTemplates":[
+                        "What is the distance to the {objectName} ?",
+                        "How far is the {objectName} ?"
+                    ],
+                    "upperLimit":{
+                        "value": "50000",
+                        "unit": "Metre"
+                    },
+                    "lowerLimit":{
+                        "value": "500",
+                        "unit": "Metre"
+                    }
+                },
+                {
+                    "type": "HighObject",
+                    "quantityType": "Length",
+                    "name": "Building",
+                    "synonyms": [],
+                    "assertTemplates":[
+                        "The horizontal distance of a {objectName} is {objectValue}.",
+                        "An {objectName} is {objectValue} away."
+                    ],
+                    "questionTemplates":[
+                        "How tall is the {objectName} ?",
+                        "What is the height of the {objectName} ?"
+                    ],
+                    "upperLimit":{
+                        "value": "50000",
+                        "unit": "Metre"
+                    },
+                    "lowerLimit":{
+                        "value": "500",
+                        "unit": "Metre"
+                    }
+                }
+            ]
+}
